@@ -1,0 +1,420 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-family: Roboto;
+		}
+
+		body {
+
+			background-color: #f8f8f8;
+		}
+
+		.Logo {
+			position: absolute;
+			left: 100px;
+			top: 10px;
+			font-size: 15px;
+			color: #FFB320;
+			text-shadow: 1px 1px 1px;
+			margin:1px;
+		}
+
+
+		.imglogo {
+			position: absolute;
+			left: 68px;
+			top: 15px;
+
+		}
+
+		.H2 {
+			color: white;
+		}
+
+		.MenuBoard {
+			width: 98.5%;
+			height: 30px;
+			padding: 10px;
+			background-color: black;
+			color:white;
+			position: fixed;
+			z-index: 100; 
+			box-shadow: 1px 1px 1px white;
+		}
+
+
+		.Links{
+			margin-top: 10px;
+			margin-left: 120px;
+			width: 90%;
+		}
+		.Links a{
+			text-decoration: none;
+			margin-left: 30px;
+			text-align: center;
+			font-size: 15px;
+			font-weight: bold;
+			color: white;
+		}
+
+		.Links a:hover {
+
+			color: #FFB320;
+			font-size: 14px;
+			text-shadow: 1px white;
+		}
+
+		.Links a::link {
+
+			color: #FFB320;
+			font-size: 10px;
+			text-shadow: 1px white;
+		}
+
+		.container{
+			position:relative;
+			top: 51px;
+		  background-color: white;
+		  width: 100%;
+		  padding: 0px;
+		}
+
+		ul, li {
+		    padding: 0;
+		    margin: 0;
+		    list-style: none;
+		}
+
+		ul.slider{
+		  position: relative;
+		  width: 100%;
+		  height: 400px;
+		}
+
+		ul.slider li {
+		    position: absolute;
+		    left: 0px;
+		    top: 0px;
+		    opacity: 0;
+		    width: inherit;
+		    height: inherit;
+		    transition: opacity .5s;
+		    background:#fff;
+		}
+
+		ul.slider li img{
+		  width: 100%;
+		  height: 400px;
+		  object-fit: cover;
+		}
+
+		ul.slider li:first-child {
+		    opacity: 1; /*Mostramos el primer <li>*/
+		}
+
+		ul.slider li:target {
+		    opacity: 1;
+		     /*Mostramos el <li> del enlace que pulsemos*/
+		}
+
+		.menu{
+			position: absolute;
+			top: 370px;
+			left: 47.5%;
+		  text-align: center;
+		  margin: auto;
+		}
+
+		.menu li{
+		  display: inline-block;
+		  text-align: center;
+		}
+
+		.menu li a{
+		  display: inline-block;
+		  color: white;
+		  text-decoration: none;
+		  background-color: white;
+		  padding: 5px;
+		  width: 5px;
+		  height: 5px;
+		  font-size: 20px;
+		  border-radius: 100%;
+		  border: 1px solid #000;
+		  box-shadow: 2px 2px 2px #828282;
+		}
+
+		.transition {
+			width: 100%;
+			height: 80px;
+			background-color: black;
+			position: relative;
+			top: 53px;
+		}
+
+		.transition2 {
+			width: 100%;
+			height: 60px;
+			background-color: white;
+			position: relative;
+			top: 30px;
+			border-radius: 40%;
+			border-top: 3px solid #626262;
+		}
+
+		.Tags {
+			background-color: white;
+			border-radius: 15px;
+			border: 0.2px solid #868686;
+			box-shadow: 4px 4px 4px #828282;
+			float: left;
+			height: 200px;
+			margin-left: 25px;
+			margin-right: 25px; 
+			padding: 20px;
+			position: relative;
+			text-align: center;
+			width: 20%;
+		}
+		
+
+		.Tagsota {
+
+			display: inline-block;
+			position: relative;
+			top:-60px;
+			margin:auto;
+			padding-left: 150px;
+			width: 80%;
+		}
+
+		/*.redes {
+
+			height: 300px;
+			position:fixed;
+			z-index: 100;
+			width: 60px;
+			background-color: black;
+			padding: 2px;
+			margin: 0px;
+
+		}*/
+
+		.container2 {
+
+			width: 80%;
+			margin:5vh auto;
+			justify-content: center;
+			align-items: center;
+			padding: 25px;
+
+		}
+
+		.obje {
+
+			font-size: 35px;
+			color: white;
+			text-shadow: 1px 1px 1px;
+			background-color: black;
+		}
+
+		table th {
+
+			border:1px solid #000;
+			border-radius: 2px; 
+			font-size: 30px;
+			color: black;
+			letter-spacing: 2px;
+			background-color: #F7bd56;
+			box-shadow: 2px 2px 2px #000;
+		}
+
+		table td {
+
+			border-radius: 5px; 
+			width: 500px;
+			text-align: center;
+			height: 60px;
+			margin: auto;
+			border:1px solid #000;
+			font-size: 20px;
+			padding: 5px;
+			/*box-shadow: 2px 2px 2px #000;*/
+
+		}
+
+		table {
+			margin: auto;
+			border-spacing: 5px;
+		}
+
+		.Descripcion {
+
+			margin-top: 50px;
+			margin:auto;
+			width: 80%;
+			padding: 25px;
+
+		}
+
+		.Descripcion h1 {
+
+			font-size: 35px;
+		}
+
+		.Descripcion p{
+
+			font-size: 20px;
+			color: #323232;
+			text-align: justify;
+		}
+
+		.Descripcion1 {
+
+			margin:auto; 
+			width: 80%;
+			padding: 25px;
+			position: relative;
+
+		}
+
+		.Descripcion1 h1 {
+
+			font-size: 35px;
+		}
+
+		.Descripcion1 p{
+
+			font-size: 20px;
+			color: #323232;
+			text-align: justify;
+		}
+
+		.imagensotas {
+
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+		}
+
+		.imagensotas1 {
+
+			float: right;
+			padding: 20px;
+			position: relative;
+			bottom: 50px;
+			width:auto;
+			display:block;
+		}
+
+		.imagensotas img {
+
+			margin-left:50px;
+			margin-right: 50px;
+			padding: 20px;
+			border-radius: 15px;
+		}
+
+		.Descripcion img {
+
+			border-image: 0px solid;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px #828282;
+		}
+
+		.Line {
+			width:100%;
+			background-color: #828282;
+			height: 2px;
+			margin-top: 5px;
+		}
+		.Cita {
+
+			background-color: black;
+			color: white;
+			font-size: 10px;
+			width: 100%;
+			height: 50px;
+			padding-top: 30px;
+		}
+
+		.TransCita {
+
+			width: 100%;
+			height: 60px;
+			background-color: white;
+			position: relative;
+			top: 30px;
+			border-radius: 40%;
+			border-bottom: 5px solid #FFB320;
+		}
+		.idia {
+			bottom:0px;
+			background-color: #FFB320;
+			width: 100%;
+			height:70px; 
+		}
+
+		.container3 {
+
+			margin: auto;
+			margin-top: 50px;
+			padding-left: 50px;
+			display: inline-block;
+			align-content: center;
+			position: relative;
+		}
+
+		.inte {
+
+			background-color: white;
+			border-radius: 15px;
+			border: 0.2px solid #000;
+			box-shadow: 4px 4px 4px #000;
+			height: 400px;
+			float: left;
+			margin-left: 50px;
+			margin-right: 50px;
+			padding: 20px;
+			position: relative;
+			text-align: center;
+			width: 20%;
+		}
+
+		.inte h1{
+
+			font-size: 25px;
+		}
+
+		.inte img {
+
+			border:1px solid #000;
+			border-image: 5px solid #000;
+			border-radius: 100%;
+		}
+
+		.Descripcion h2 {
+
+			font-size: 45px;
+			font-weight: bold;
+			color:black;
+			text-shadow: 1px 1px #000;
+		}
+
+		.Login {
+
+			float: right;
+			margin-right: 60px;
+			background-color: white;
+			color:black;
+			padding: 5px;
+			position: relative;
+			bottom: 8px;
+			border-radius: 5px;
+			background-color: #FFB320;
+			color: white;
+			letter-spacing: 3;
+			font-weight: bold;
+			text-shadow: 1px 1px 1px #000;
+		}
+
